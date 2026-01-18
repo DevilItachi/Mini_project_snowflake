@@ -1,6 +1,8 @@
 -- This are the table from gold layer .
 -- Its one to one copy.
 
+Use database MINI_PROJECT;
+
 CREATE SCHEMA IF NOT EXISTS mini_project;
 
 
@@ -35,5 +37,6 @@ CREATE TABLE IF NOT EXISTS mini_project.category_sales (
     total_quantity  INT,
     total_revenue   DOUBLE
 )
+
 
 
